@@ -12,7 +12,7 @@ class Play extends Phaser.Scene {
 
         // set up camera
         this.cameras.main.setBounds(0, 0, this.map.width, this.map.height)
-        this.cameras.main.startFollow(this.hero, false, 0.1, 0.1)
+        this.cameras.main.startFollow(this.hero, false, 0.5, 0.5)
         this.physics.world.setBounds(0,0, this.map.width, this.map.height)
         
         // setup keyboard input
